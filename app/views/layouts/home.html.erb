@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title><%= yield(:title) || "Home" %></title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag :defaults %>
+    <title>MacGregor Joinery Services</title>
+    <meta name="keywords" content="Joiner, West Calder, MacGregor Joinery Services, West Lothian, Scotland, Edinburgh, Glasgow">
+    <meta name="description" content="MacGregor Joinery Services - There is no substitute for quality work.">
+    <%= yield(:head) %>
+  </head>
+  
+  <body>
+    <div id="container">    
+      <div id="header">
+        <div id="top_nav" class="nav">
+          <ul>
+	    <li><%= link_to 'Home', root_path %></li> 
+	    <li><%= link_to "Gallery", gallery_path %></li> 
+	    <li><%= link_to "Contact", contact_path %></li>
+          </ul>
+        </div>
+         
+        <div id="logo">
+          <a href="/home" class="no_link_hover"><img src="/images/mjs.bmp" alt="Home" /></a>
+        </div>
+         
+      </div>
+     
+      <% flash.each do |name, msg| %>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <% end %>
+      <%= yield %>
+    </div>
+  </body>
+</html>

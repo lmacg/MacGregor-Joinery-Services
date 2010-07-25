@@ -1,0 +1,289 @@
+body {
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+  height: auto;
+  margin:0;
+  padding-top:40px;
+  background-color: #C9BC9D;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+a li {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li {
+display:inline;
+padding:10px;
+}
+
+#container {
+  width: 850px;
+  margin: 0 auto;
+  height: 400px;
+  background-color: #FFF;
+  padding: 20px 40px;
+    -webkit-border-top-right-radius:  .8em;
+    -webkit-border-top-left-radius:   .8em;
+    -moz-border-radius-topright:      .8em;
+    -moz-border-radius-topleft:       .8em;
+    -webkit-border-bottom-right-radius:  .8em;
+    -webkit-border-bottom-left-radius:   .8em;
+    -moz-border-radius-bottomright:      .8em;
+    -moz-border-radius-bottomleft:       .8em;
+}
+
+#flash_notice, #flash_error, #flash_alert {
+  clear: both;
+  padding: 5px 8px;
+  margin: 10px 0;
+  width: 400px;
+  }
+  
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+#errorExplanation ul {
+  margin: 2px 24px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: disc;
+}
+
+
+/* div styles
+--------------------------------------- */
+
+#header {
+  margin-bottom: 20px;
+}
+
+#logo{
+  height: 70px;
+  width: 250px;
+}
+
+#top_nav {
+  width: 500px;
+  padding-top: 50px;
+  float: right;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+#main_text {
+  margin-top: 100px;
+  width: 400px;
+  padding: 10px;
+  text-align: justify;
+}
+
+#contact_us {
+  margin-top: 50px;
+  width: 400px;
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+#registration_text {
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#Registration_form {
+  margin-top: 20px;
+  float: left;
+  height: 400px;
+}
+
+#address {
+  margin-top: 10px;
+  padding: 10px;
+  float: right;
+  margin-right: 60px;
+}
+
+
+
+p.smallfont
+	{
+		float:left;
+		margin:9px 0 9px 0;
+		width: 100%;
+		padding:0px;
+		font-family:Verdana, Helvetica, Arial;
+		font-size:12px;
+		font-weight:normal;
+		color: #707070;
+		line-height:19px;
+	}
+
+
+#option_buttons {
+  float: right;
+}
+
+
+th {
+   text-align: left;
+   padding: 2px;
+}
+
+
+#show_record {
+  margin-top: 50px;
+}
+
+float-left {
+  align: right;
+}
+
+#edit_business_details {
+  margin-top: 50px;
+  font-weight:bold;
+  text-align: justify;
+}
+
+.images {
+  margin:12px
+}
+
+
+/* links
+--------------------------------------- */
+
+.login-logout {
+	position: absolute;
+	top: .15em;
+	z-index: 99;
+	color: #000;
+	right: 280px;
+}
+
+.login-logout a,
+.login-logout a:visited,
+.login-logout a:active {
+	background: #000;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	padding: .5em;
+	margin-left: .3em;
+	-webkit-border-bottom-right-radius:  .8em;
+	-webkit-border-bottom-left-radius:   .8em;
+	-moz-border-radius-bottomright:      .8em;
+	-moz-border-radius-bottomleft:       .8em;
+}
+
+.login-logout a:hover {
+	background: #FFF;
+	text-decoration: none;
+	color: #000
+}
+
+
+.nav li {
+  display: inline;
+  list-style: none;
+  font-size: 12px;
+}
+
+.nav li a {
+  padding:3px 10px;
+  color:#000;
+  text-decoration:none;
+  font-weight: bold;
+  font-size: 12px;	
+}
+
+.nav li a:hover {
+  background-color:#000;
+  color:#FFFFFF;
+	font-weight: bold;
+  border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+  font-size: 12px;	
+	}
+
+.current {
+  padding:3px 10px;
+  background-color:#34AA3A;
+  color:#FFFFFF;
+	font-weight: bold;
+  border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+}

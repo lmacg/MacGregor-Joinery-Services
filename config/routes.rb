@@ -1,5 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.root :controller => 'home'
+  map.contact '/contact', :controller => 'home', :action => 'contact' 
+  map.gallery '/gallery', :controller => 'home', :action => 'gallery' 
 
   # The priority is based upon order of creation: first created -> highest priority.
 
