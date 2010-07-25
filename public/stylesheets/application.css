@@ -14,7 +14,6 @@ a img {
 a {
   color: #000;
   font-weight: bold;
-  font-size: 10px;
 }
 
 a li {
@@ -37,23 +36,16 @@ h2 {
   font-size: 15px;
 }
 
-ul {
-list-style-type:none;
-margin:0;
-padding:0;
-}
 
-li {
-display:inline;
-padding:10px;
-}
 
 #container {
   width: 850px;
   margin: 0 auto;
-  height: 400px;
+  height: auto;
   background-color: #FFF;
   padding: 20px 40px;
+  border-style:solid;
+  border-color: #452D2C;
     -webkit-border-top-right-radius:  .8em;
     -webkit-border-top-left-radius:   .8em;
     -moz-border-radius-topright:      .8em;
@@ -148,6 +140,14 @@ padding:10px;
   text-align: justify;
 }
 
+#list{
+   position:relative;
+   top: -25px;
+   right:-550px;
+   width: 240px;
+  
+}
+
 #contact_us {
   margin-top: 50px;
   width: 400px;
@@ -157,24 +157,18 @@ padding:10px;
   height: 70px;
 }
 
-#registration_text {
-  margin-top: 50px;
-  text-align: justify;
-}
 
-#Registration_form {
-  margin-top: 20px;
-  float: left;
-  height: 400px;
-}
 
 #address {
-  margin-top: 10px;
-  padding: 10px;
-  float: right;
-  margin-right: 60px;
+   position:relative;
+    top: -43px;
+    right:-610px;
+  width: 200px;
 }
 
+p.bold {
+  font-weight:bold;
+  }
 
 
 p.smallfont
@@ -269,8 +263,8 @@ float-left {
 }
 
 .nav li a:hover {
-  background-color:#000;
-  color:#FFFFFF;
+  background-color:#FFFDB5;
+  color:#000;
 	font-weight: bold;
   border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
