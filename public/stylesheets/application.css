@@ -148,6 +148,11 @@ h2 {
   
 }
 
+#warning {
+   padding: 10px;
+   text-align: justify;
+}
+
 #contact_us {
   margin-top: 50px;
   width: 400px;
@@ -158,11 +163,10 @@ h2 {
 }
 
 
-
 #address {
-   position:relative;
-    top: -43px;
-    right:-610px;
+  position:relative;
+  top: -43px;
+  right:-610px;
   width: 200px;
 }
 
@@ -181,6 +185,19 @@ p.smallfont
 		font-size:12px;
 		font-weight:normal;
 		color: #707070;
+		line-height:19px;
+	}
+	
+p.redfont
+        {
+		float:left;
+		margin:9px 0 9px 0;
+		width: 100%;
+		padding:0px;
+		font-family:Verdana, Helvetica, Arial;
+		font-size:12px;
+		font-weight:normal;
+		color: #B11623;
 		line-height:19px;
 	}
 
