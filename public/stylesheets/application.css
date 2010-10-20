@@ -37,7 +37,6 @@ h2 {
 }
 
 
-
 #container {
   width: 850px;
   margin: 0 auto;
@@ -46,6 +45,7 @@ h2 {
   padding: 20px 40px;
   border-style:solid;
   border-color: #452D2C;
+  behavior: url(PIE.php);
     -webkit-border-top-right-radius:  .8em;
     -webkit-border-top-left-radius:   .8em;
     -moz-border-radius-topright:      .8em;
@@ -54,6 +54,7 @@ h2 {
     -webkit-border-bottom-left-radius:   .8em;
     -moz-border-radius-bottomright:      .8em;
     -moz-border-radius-bottomleft:       .8em;
+  
 }
 
 #flash_notice, #flash_error, #flash_alert {
@@ -61,7 +62,7 @@ h2 {
   padding: 5px 8px;
   margin: 10px 0;
   width: 400px;
-  }
+}
   
 #flash_notice {
   background-color: #CFC;
@@ -246,6 +247,7 @@ float-left {
 .login-logout a,
 .login-logout a:visited,
 .login-logout a:active {
+        behavior: url(PIE.php);
 	background: #000;
 	font-size: 10px;
 	font-weight: bold;
@@ -254,8 +256,9 @@ float-left {
 	margin-left: .3em;
 	-webkit-border-bottom-right-radius:  .8em;
 	-webkit-border-bottom-left-radius:   .8em;
-	-moz-border-radius-bottomright:      .8em;
+	-border-radius-bottomright:          .8em;
 	-moz-border-radius-bottomleft:       .8em;
+	
 }
 
 .login-logout a:hover {
@@ -282,19 +285,21 @@ float-left {
 .nav li a:hover {
   background-color:#FFFDB5;
   color:#000;
-	font-weight: bold;
+  font-weight: bold;
   border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
-	-moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  behavior: url(PIE.php);
   font-size: 12px;	
-	}
+}
 
 .current {
   padding:3px 10px;
   background-color:#34AA3A;
   color:#FFFFFF;
-	font-weight: bold;
+  font-weight: bold;
   border-radius: 0.5em;
-	-webkit-border-radius: 0.5em;
-	-moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  behavior: url(PIE.php);
 }
